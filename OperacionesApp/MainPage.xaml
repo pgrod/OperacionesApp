@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="OperacionesApp.MainPage">
+    <TabbedPage.Children>
+        <NavigationPage Title="Área del cuadrado">
+            <x:Arguments>
+                <local:Cuadrado/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Área del círculo">
+            <x:Arguments>
+                <local:Circulo/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Área del rectángulo">
+            <x:Arguments>
+                <local:Rectangulo/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
